@@ -1,0 +1,318 @@
+@charset "UTF-8";
+/*シングルスコープファイルです。一か所しか使用しない限定指定のみ記述すること。*/
+.fv-sb {
+  max-width: 1440px;
+  height: 752px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  /*縦横比保持しつつ、領域を覆う最小サイズになるよう拡大縮小*/
+  background-position: center;
+  /*画像中央基準で画像表示する*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fv-sl {
+  color: white;
+  width: 659px;
+  height: 171px;
+  text-align: center;
+  margin-top: 31%;
+}
+
+.fv-su-res {
+  display: none;
+}
+
+.concept {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*columnにすると軸が90度変わるので、これでセンタリングする*/
+}
+
+.concept-sl {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.concept-sl-upper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-style: oblique;
+}
+
+.concept-sl-middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-weight: normal;
+}
+
+.concept-sl-under {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.concept-sl-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 120px;
+}
+
+.concept-sl-su-res-open {
+  display: none;
+}
+
+.concept-sl-su-res-close {
+  display: block;
+}
+
+.concept-sl2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.concept-su-p {
+  max-width: 500px;
+  height: 146px;
+}
+
+.concept-su-img {
+  max-width: 440px;
+  height: 240px;
+}
+
+.concept-su-p2 {
+  font-size: 90px;
+  opacity: 0.03;
+}
+
+.works {
+  background-image: url(../img/works-bgi@2x.jpg);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*columnにすると軸が90度変わるので、これでセンタリングする*/
+}
+
+.works-sl-upper {
+  display: block;
+  text-align: right;
+  color: white;
+  font-style: oblique;
+}
+
+.works-sl-middle {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.works-sl-box {
+  width: 32%;
+  height: 334px;
+  background-color: white;
+}
+
+.works-sl-box img {
+  width: 100%;
+}
+
+.works-sl-box p {
+  padding: 2% 6%;
+}
+
+.works-sl-under p {
+  font-size: 90px;
+  color: white;
+  opacity: 0.15;
+}
+
+.service-sl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.service-sl-upper {
+  font-style: oblique;
+}
+
+.service-sl-under p {
+  font-size: 90px;
+  color: black;
+  opacity: 0.05;
+}
+
+.service-sl-box {
+  position: relative;
+  background-color: black;
+}
+
+.service-sl-box p {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 40px;
+  font-style: oblique;
+}
+
+.service-sl-box img {
+  width: 100%;
+}
+
+.service-sl-box img:hover {
+  opacity: 0.5;
+}
+
+.contact {
+  background-image: url(../img/contact-bgi@2x.jpg);
+}
+
+.contact-sl {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-sl-upper {
+  display: block;
+  color: white;
+  font-style: oblique;
+  text-align: right;
+}
+
+.contact-sl-under p {
+  font-size: 90px;
+  color: white;
+  opacity: 0.05;
+}
+
+.contact-su-p {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 430px) {
+  .fv-sb {
+    height: 600px;
+  }
+  .fv-sl {
+    margin-top: 60%;
+  }
+  .fv-su-res {
+    display: block;
+  }
+  .concept-sl-under {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .concept-sl-under img {
+    width: 100%;
+  }
+  .concept-su-p2 {
+    font-size: 40px;
+  }
+  .concept-su-res-open {
+    display: block;
+  }
+  .concept-su-res-close {
+    display: none;
+  }
+  .works-sl-middle {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .works-sl-box {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .works-sl-under p {
+    font-size: 40px;
+  }
+  .service-sl-middle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .service-sl-under p {
+    font-size: 40px;
+  }
+  .service-sl-box p {
+    font-size: 20px;
+  }
+  .contact-sl-under p {
+    font-size: 40px;
+  }
+}
+/*# sourceMappingURL=single-1.css.map */

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中級コンタクト</title>
+    <!-- css各種の読み込み -->
+    <link rel="stylesheet" href="../bace/reset.css">
+    <link rel="stylesheet" href="../style.css"><!-- 基本使用しないが、styleが無いとWP等で不具合がでる -->
+    <link rel="stylesheet" href="../bace/bace.css">
+    <link rel="stylesheet" href="../mulch/mulch.css">
+    <link rel="stylesheet" href="single-contacts.css">
+    
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> 
+    <!--jQuery読み込み-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+    
+</head>
+<body>
+    <!--header-->
+    <header class="header-mb">
+        <div class="header-ml">
+            <a class="header-mp-left header-mu-logo" href="../index.html">Cresta Design</a>
+            <nav class="header-mp-right">
+                <ul class="header-mp-li">
+                    <li><a href="#concept">Concept</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a class="header-res-hbg js-modal-show" href="#"><i class="fas fa-bars"></i></a>
+            </nav>
+        </div>
+    </header><!--/header-->
+    <!--main-->
+    <main>
+                <!--modal-->
+<div class="modal" id="modal">
+    <div class="modal-wrapper">
+      <nav class="modal-nav">
+        <a class="modal-close js-modal-close" href="#">×</a>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#">Contents</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div><!--/modal-->
+  
+        <!--contact-->
+        <section class="contact mb mu-section-padding">
+            <div class="contact-sl ml-1440">
+                <div class="contact-sl-upper ml">
+                    <h2>Contact</h2>
+                </div>
+                <div class="ml-1200 contact-sl-under mu-mt-60">
+                    <p>Contact us</p>
+                </div>
+
+            </div>
+        </section><!--/contact-->
+
+        <!--form-->
+        <form class="form" action="">
+            <div class="form-wrapper">
+                <p>お問合せ内容</p>
+                <div class="form-sl-checkbox">
+                    <div>
+                        <input type="checkbox" name="question" value="paper">資料請求　　
+                    </div>
+                    <div>
+                        <input type="checkbox" name="question" value="tel">お電話でのご相談を希望　　
+                    </div>
+                    <div>
+                        <input type="checkbox" name="question" value="submit">申し込み　　
+                    </div>
+                </div>
+                <p>担当者名</p>
+                <input class="form-input-small" type="text" name="" id="">
+                <p>電話番号</p>
+                <input class="form-input-small" type="text">
+                <p>メールアドレス</p>
+                <input class="form-input-small" type="text">
+                <p>その他</p>
+                <input class="form-input-big" type="text" name="" id="">
+                <a class="mp-btn" href="">submit</a>
+            </div>
+          </form><!--/form-->
+
+    </main><!--/main-->
+
+    <!--footer-->
+    <footer class="footer-mb">
+        <div class="footer-ml">
+            <p>©︎cresta.design all rights reserved</p>
+        </div>   
+    </footer><!--/footer-->
+    
+    <!--jQueryスクリプト読み込みと動作テスト（検証ツールのコンソールにて）-->
+    <script src="../mulch/mulch.js"></script>
+    <script>
+        console.log('js-test');
+    </script>
+</body>
+</html>

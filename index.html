@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ローカルクリスタ中級</title>
+    <!-- css各種の読み込み -->
+    <link rel="stylesheet" href="style.css"><!-- 基本使用しないが、styleが無いとWP等で不具合がでる -->
+    <link rel="stylesheet" href="bace/reset.css">
+    <link rel="stylesheet" href="bace/bace.css">
+    <link rel="stylesheet" href="mulch/mulch.css">
+    <link rel="stylesheet" href="single/single-1.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> 
+    <!--jQuery読み込み-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+    <script src="single/jquery.bgswitcher.js"></script>
+    
+    <!--google指定フォント読み込み-->
+    <link href=“https://fonts.googleapis.com/css?family=Noto+Serif|Noto+Serif+JP&display=swap” rel=“stylesheet”>
+</head>
+<body>
+    <!--header-->
+    <header class="header-mb">
+        <div class="header-ml">
+            <a class="header-mp-left header-mu-logo" href="index.html">Cresta Design</a>
+            <nav class="header-mp-right">
+                <ul class="header-mp-li">
+                    <li><a href="#concept">Concept</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a class="header-res-hbg js-modal-show" href="#"><i class="fas fa-bars"></i></a>
+            </nav>
+        </div>
+    </header><!--/header-->
+    <!--main-->
+    <main>
+
+        <!--modal-->
+<div class="modal" id="modal">
+    <div class="modal-wrapper">
+      <nav class="modal-nav">
+        <a class="modal-close js-modal-close" href="#">×</a>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#">Contents</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div><!--/modal-->
+
+        <!--fv-->
+        <div class="fv-sb fv-sj-slider">
+            <div class="ml-1200">
+                <div class="fv-sl">
+                    <h1>Design for Smile.</h1>
+                    <h3>快適なオフィスを <br class="fv-su-res"> デザインする</h3>
+                </div>
+            </div>
+        </div><!--/fv-->
+
+        <!--concept-->
+        <section class="concept mb mu-section-padding">
+            <div class="concept-sl ml-1000">
+                <div class="concept-sl-upper">
+                    <h2 class="mu-posi-re mu-bar-after">concept</h2>
+                </div>
+                <div class="concept-sl-middle">
+                    <h4>“働きたくなる空間”をデザインする<br class="concept-su-res-open">ことで<br class="concept-su-res-close">人々を幸せにする。</h4>
+                </div>
+                <div class="concept-sl-under">
+                    <p class="concept-su-p">私たちは、オフィスに特化した空間デザイン専門としております。その理由は、「働きたくなる空間で仕事ができれば多くの人を幸せにできるのではないか」と考えるためです。そんな想いの株式会社Cresta Designだからこそできる空間デザインを提供させていただきます。</p>
+                    <img src="img/concept-image@2x.jpg" class="concept-su-img"　alt="">
+                </div>
+
+            </div>
+            <div class="concept-sl2 ml-1200">
+                <div class="concept-sl-bottom">
+                    <p class="concept-su-p2">Our Concept</p>
+                </div>
+            </div>
+            
+        </section><!--/concept-->
+
+        <!--works-->
+        <section class="works mb mu-section-padding">
+            <div class="works-sl-upper ml-1200">
+                <h2 class="mu-bar-after-white">Works</h2>
+            </div>
+            <div class="works-sl-middle ml-1000 mu-mt-60">
+                <div class="works-sl-box">
+                    <img src="img/card-img01@2x.jpg" alt="">
+                    <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+                </div>
+                <div class="works-sl-box">
+                    <img src="img/card-img02@2x.jpg" alt="">
+                    <p>新規サイトを公開しました。今回のサイトは白と黒を基調にした</p>
+                </div>
+                <div class="works-sl-box">
+                    <img src="img/card-img03@2x.jpg" alt="">
+                    <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+                </div>
+            </div>
+            <a class="mp-btn mu-mt-60" href="">View more</a>
+            <div class="works-sl-under ml-1200 mu-mt-60">
+                <p>Our Works</p>
+            </div>
+
+        </section><!--/works-->
+
+        <!--service-->
+        <section class="service mb mu-section-padding">
+            <div class="service-sl ml">
+                <div class="ml-1000 service-sl-upper mu-posi-re">
+                    <h2 class="mu-bar-after">Service</h2>
+                </div>
+                <div class="ml-1440 service-sl-middle mu-mt-60">
+                    <div class="service-sl-box">
+                        <img src="img/service-img01@2x.jpg" alt="">
+                        <p>Hearing</p>
+                    </div>
+                    <div class="service-sl-box">
+                        <img src="img/service-img02@2x.jpg" alt="">
+                        <p>Planning</p>
+                    </div>
+                    <div class="service-sl-box">
+                        <img src="img/sevice-img03@2x.jpg" alt="">
+                        <p>Direction</p>
+                    </div>
+                </div>
+                <div class="ml-1200 service-sl-under mu-mt-60">
+                    <p>Our Service</p>
+                </div>
+
+            </div>
+
+
+        </section><!--/service-->
+
+        <!--contact-->
+        <section class="contact mb mu-section-padding">
+            <div class="contact-sl ml-1440">
+                <div class="contact-sl-upper ml-1200">
+                    <h2 class="mu-bar-after-white">Contact</h2>
+                </div>
+                <p class="contact-su-p  mu-mt-60">お気軽にご相談ください。</p>
+                <a class="mp-btn  mu-mt-60" href="single/contact.html">Contact</a>
+                <div class="ml-1200 contact-sl-under mu-mt-60">
+                    <p>Contact us</p>
+                </div>
+
+            </div>
+        </section><!--/contact-->
+
+
+    </main><!--/main-->
+
+    <!--footer-->
+    <footer class="footer-mb">
+        <div class="footer-ml">
+            <p>©︎cresta.design all rights reserved</p>
+        </div>   
+    </footer><!--/footer-->
+    
+    <!--jQueryスクリプト読み込みと動作テスト（検証ツールのコンソールにて）-->
+    <script src="mulch/mulch.js"></script>
+    <script src="single/single-1.js"></script>
+    <script>
+        console.log('js-test');
+    </script>
+</body>
+</html>

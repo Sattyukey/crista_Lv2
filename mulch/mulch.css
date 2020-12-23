@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/*マルチスコープファイルです。サイト内で再利用するクラスのみ記述すること。*/
+.mb {
+  max-width: 1440px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ml {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mu-section-padding {
+  padding-top: 120px;
+  padding-bottom: 70px;
+}
+
+.mu-pt-60 {
+  padding-top: 60px;
+}
+
+.mu-mt-60 {
+  margin-top: 60px;
+}
+
+.mu-mtb-60 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.ml-1200 {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ml-1000 {
+  max-width: 1000px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ml-1440 {
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mu-bar-after::after {
+  content: '';
+  /*これが無いとBOXの中身が無く消えてしまう*/
+  display: inline-block;
+  margin: 0 20px;
+  border-top: solid 6px black;
+  width: 180px;
+  height: 1px;
+  vertical-align: middle;
+}
+
+.mu-bar-after-white::after {
+  content: '';
+  /*これが無いとBOXの中身が無く消えてしまう*/
+  display: inline-block;
+  margin: 0 20px;
+  border-top: solid 6px white;
+  width: 180px;
+  height: 1px;
+  vertical-align: middle;
+}
+
+.header-mb {
+  position: fixed;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  left: 50%;
+  z-index: 10;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-ml {
+  max-width: 1200px;
+  width: 95%;
+  height: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1%;
+}
+
+.header-mp-li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-mp-li li a {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-style: oblique;
+}
+
+.header-mu-logo {
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+  font-style: oblique;
+}
+
+.header-mj-c-gray {
+  background-color: #282F35;
+}
+
+.header-res-hbg {
+  color: white;
+  display: none;
+}
+
+.modal {
+  display: none;
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 665px;
+  background-color: black;
+  z-index: 10;
+}
+
+.modal-close {
+  display: block;
+  text-align: right;
+}
+
+.modal-close a {
+  color: white;
+}
+
+.modal-nav {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  width: 60%;
+  height: 60%;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.modal-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+.modal-nav li {
+  margin: 30% 0;
+}
+
+.modal-nav a {
+  color: white;
+}
+
+.mp-btn {
+  width: 235px;
+  height: 59px;
+  background-color: #e4b637;
+  text-align: center;
+  color: black;
+  line-height: 60px;
+  border-radius: 30px;
+  border: black solid 1px;
+}
+
+.footer-mb {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 79px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-sl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.footer-sl p {
+  font-style: 14px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 430px) {
+  .mb {
+    padding: 0 15px;
+  }
+  .mu-bar-after::after {
+    width: 80px;
+  }
+  .mu-bar-after-white::after {
+    width: 80px;
+  }
+  .header-mp-right ul {
+    display: none;
+  }
+  .header-res-hbg {
+    display: block;
+  }
+}
+/*# sourceMappingURL=mulch.css.map */
